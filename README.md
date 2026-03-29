@@ -127,10 +127,9 @@ python -m pytest tests/ -v
 
 ## 📸 Demo
 
-> **Screenshot instructions:** Run `streamlit run app.py`, add an owner, add two pets, add several tasks (including two at the same time to trigger a conflict warning), then take a screenshot of the full app window. Save it as `demo_screenshot.png` and embed it here.
+![PawPal+ App Screenshot](demo_screenshot.png)
 
-<!-- Replace the path below with your actual screenshot after capturing it -->
-<!-- ![PawPal+ App Screenshot](demo_screenshot.png) -->
+The screenshot shows the conflict warning (`CONFLICT at 07:30`) detected by `Scheduler.detect_conflicts()`, displayed as an `st.warning` banner, along with the Today's Schedule table sorted chronologically by time.
 
 ---
 
